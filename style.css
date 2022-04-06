@@ -1,0 +1,16 @@
+#heading{
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+.btn-success:hover{
+    background-color: mediumvioletred;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 40px purple;}
+    to{box-shadow: 1px 1px 40px rgb(225, 11, 225);}
+}
